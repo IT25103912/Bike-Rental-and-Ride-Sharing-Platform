@@ -1,3 +1,0 @@
-U001,Nimal,nimal@gmail.com,1234,Customer
-U55,sachi,sachindunilupul2008@gmail.com,1234,Customer
-U56,sachi,sachindunilupul2009@gmail.com,1234,Customer
