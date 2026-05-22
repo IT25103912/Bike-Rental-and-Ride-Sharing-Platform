@@ -22,7 +22,6 @@ public class UpdateStatusServlet extends HttpServlet {
             BikeDAO bikeDao = new BikeDAO();
             bikeDao.updateBikeStatus(bikeId, newStatus);
 
-            // ආපහු Admin Dashboard එකට යවනවා
             response.sendRedirect(request.getContextPath() + "/views/admin/admin-dashboard.jsp?statusUpdated=true");
         } else {
             response.sendRedirect(request.getContextPath() + "/views/admin/admin-dashboard.jsp");
